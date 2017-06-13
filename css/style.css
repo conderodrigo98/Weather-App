@@ -1,0 +1,59 @@
+p{
+  display:none;
+}
+img{
+  display:none;
+  margin:auto;
+  width:5%;
+  margin-bottom:50%;
+}
+
+body{
+  text-align:center;
+  background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Weather_station_on_Mount_Vesuvius_%282437693238%29.jpg/1280px-Weather_station_on_Mount_Vesuvius_%282437693238%29.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  transition: 1s;
+  color:#B90000;
+}
+
+h1{
+  font-size:3em;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+#location{
+  font-size:1.5em;
+  padding-bottom:2%;
+}
+
+#summary{
+  font-size:1.75em;
+  padding-bottom:0.5%;
+}
+
+#temperature{
+  font-size:4.5em;
+  margin-left:43%;
+  margin-right:43%;
+}
+
+#temperature:hover{
+  cursor:pointer;
+}
+
+@media only screen and (max-width:480px){
+  h1{
+    padding-top:10%;
+  }
+  img{
+    width:20%;
+  }
+  .fa{
+    margin-bottom:150%;
+  }
+  #temperature{
+    margin:auto;
+  }
+}
